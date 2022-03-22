@@ -1,10 +1,14 @@
 package org.lesson1;
 
-class FirstProgramm {
-    public static void main(String[] args) {
-        var name = "hexlet";
-        // BEGIN (write your solution here)
-        System.out.println(name.substring(0,1).toUpperCase()+name.substring(1));
-        // END
-    }
-}
+=======
+import java.util.Scanner;
+
+public class FirstProgram {
+        public static void main(String args[]) {
+            String s = "Hello";
+            long l = 99;
+            double d = 1.11;
+            int i = 1;
+            int j = 0;
+
+        }}
