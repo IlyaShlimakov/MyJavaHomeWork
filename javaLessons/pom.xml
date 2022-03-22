@@ -12,11 +12,15 @@
         <groupId>com.opencsv</groupId>
         <artifactId>opencsv</artifactId>
         <version>5.6</version>
-    </dependency></dependencies>
-
+        </dependency>
+<dependency>
+        <groupId>org.seleniumhq.selenium</groupId>
+        <artifactId>selenium-java</artifactId>
+        <version>4.1.2</version>
+    </dependency>
+    </dependencies>
     <properties>
         <maven.compiler.source>17.02</maven.compiler.source>
         <maven.compiler.target>17.02</maven.compiler.target>
     </properties>
-
 </project>
