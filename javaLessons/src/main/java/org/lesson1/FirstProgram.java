@@ -1,11 +1,10 @@
 package org.lesson1;
 
-import java.util.Scanner;
-
-public class FirstProgram {
-    public static void main(String[]args){
-        Scanner scan = new Scanner(System.in);
-        int number = scan.nextInt();
-        System.out.println(number);
+class FirstProgramm {
+    public static void main(String[] args) {
+        var name = "hexlet";
+        // BEGIN (write your solution here)
+        System.out.println(name.substring(0,1).toUpperCase()+name.substring(1));
+        // END
     }
 }
